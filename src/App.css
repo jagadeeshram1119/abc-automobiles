@@ -1,0 +1,46 @@
+
+/* Navbar styles */
+.navbar {
+  background-color: #f8f9fa;
+ 
+  
+  display: flex;
+  list-style: none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/* Optional: Add a border-bottom to the navbar */
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Optional: Center the navbar items */
+.navbar-nav {
+  margin: 0 auto;
+}
+
+/* Optional: Adjust the spacing for smaller screens */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
+}
+
